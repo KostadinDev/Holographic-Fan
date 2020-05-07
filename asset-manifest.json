@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/holographic-fan/static/css/main.c9b0e763.chunk.css",
+    "main.js": "/holographic-fan/static/js/main.aab5343a.chunk.js",
+    "main.js.map": "/holographic-fan/static/js/main.aab5343a.chunk.js.map",
+    "runtime-main.js": "/holographic-fan/static/js/runtime-main.6e8cf49f.js",
+    "runtime-main.js.map": "/holographic-fan/static/js/runtime-main.6e8cf49f.js.map",
+    "static/js/2.6278bbef.chunk.js": "/holographic-fan/static/js/2.6278bbef.chunk.js",
+    "static/js/2.6278bbef.chunk.js.map": "/holographic-fan/static/js/2.6278bbef.chunk.js.map",
+    "index.html": "/holographic-fan/index.html",
+    "precache-manifest.9fc8e3e8c2d7424470c061e067d70b85.js": "/holographic-fan/precache-manifest.9fc8e3e8c2d7424470c061e067d70b85.js",
+    "service-worker.js": "/holographic-fan/service-worker.js",
+    "static/css/main.c9b0e763.chunk.css.map": "/holographic-fan/static/css/main.c9b0e763.chunk.css.map",
+    "static/js/2.6278bbef.chunk.js.LICENSE.txt": "/holographic-fan/static/js/2.6278bbef.chunk.js.LICENSE.txt",
+    "static/media/ComputerScience-no-background-pc.png": "/holographic-fan/static/media/ComputerScience-no-background-pc.07615a85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e8cf49f.js",
+    "static/js/2.6278bbef.chunk.js",
+    "static/css/main.c9b0e763.chunk.css",
+    "static/js/main.aab5343a.chunk.js"
+  ]
+}
