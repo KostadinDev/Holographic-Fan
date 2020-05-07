@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/holographic-fan/precache-manifest.9fc8e3e8c2d7424470c061e067d70b85.js"
+  "/holographic-fan/precache-manifest.0bb247c173da7282f478df5cff498095.js"
 );
 
 self.addEventListener('message', (event) => {
