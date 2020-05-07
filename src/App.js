@@ -37,46 +37,27 @@ class App extends Component {
             )
     }
 
-    // render() {
-    //     var React = require('react');
-    //     var QRCode = require('qrcode.react');
-    //
-    //     return (
-    //         <div className="App">
-    //             <Beforeunload onBeforeunload={() => "You'll lose your data!"}/>
-    //             <div align = "center">
-    //                 <div className='image' style={{backgroundImage: `url(${UHLogo})`}}/>
-    //
-    //             </div>
-    //             <h3>
-    //                 Hologram Display
-    //             </h3>
-    //             <div align="center">
-    //                 <FileUploadBox/>
-    //                 <QRCode value="http://facebook.github.io/react/" />
-    //             </div>
-    //         </div>
-    //     );
-    // }
     render() {
-        const { error, isLoaded, items } = this.state;
-        if (error) {
-            return <div>Error: {error.message}</div>;
-        } else if (!isLoaded) {
-            return <div>Loading...</div>;
-        } else {
-            return (
-                <ul>
-                    {items.map(item => (
-                        <li key={item.name}>
-                            {item.name} {item.price}
-                        </li>
-                    ))}
-                </ul>
-            );
-        }
-    }
+        var React = require('react');
+        var QRCode = require('qrcode.react');
 
+        return (
+            <div className="App">
+                <Beforeunload onBeforeunload={() => "You'll lose your data!"}/>
+                <div align = "center">
+                    <div className='image' style={{backgroundImage: `url(${UHLogo})`}}/>
+
+                </div>
+                <h3>
+                    Hologram Display
+                </h3>
+                <div align="center">
+                    <FileUploadBox/>
+                    <QRCode value="http://facebook.github.io/react/" />
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
